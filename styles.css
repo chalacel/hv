@@ -64,7 +64,6 @@ footer {
 .navbar {
   padding: 0.5rem 1rem;
   display: flex;
-  flex-direction: row;
   align-items: center;
   background-color: var(--color-primary-shadow);
   /* background-color: transparent; */
@@ -318,14 +317,10 @@ footer {
   display: flex;
   justify-content: center;
   padding: 2rem 4rem;
- 
-
-}
+ }
 
 .tablita {
   border: 1px solid purple;
-  
-  
 }
 
 .tablita th {
@@ -336,7 +331,6 @@ footer {
  padding: 0.5rem;
 }
 .tablita td {
- 
   padding: 0.5rem;
   font-size: 2rem;
   color: black;
@@ -348,7 +342,7 @@ footer {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  opacity: 0.3;
+  opacity: 0.15;
   content: "";
   width: 100%;
   height: 100%;
